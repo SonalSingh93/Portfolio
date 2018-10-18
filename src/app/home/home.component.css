@@ -1,0 +1,21 @@
+
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("/assets/images/Website-Design-Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+mat-card{
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}
+.name {
+  opacity: 1;
+  text-align: center;
+  font-size: 3cm;
+}
