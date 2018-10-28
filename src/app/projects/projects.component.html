@@ -1,0 +1,24 @@
+<div class="projectBG">
+<mat-grid-list cols="2" rowHeight="2:1" class="row">
+  <mat-grid-tile *ngFor="let project of projects">
+      <div class="flip-card">
+        <a target="_blank" href="{{ project.githublink }}">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <!-- <img src="../assets/images/searchengine.jpg" alt="Avatar" style="width:500px;height:350px;"> -->
+              <img src="{{ project.imagesource }}" alt="Avatar" style="width:500px;height:350px;">
+
+            </div>
+            <div class="flip-card-back">
+              <h1 class="flip-back-text">{{ project.title }}</h1>
+              <p class="flip-back-text">{{ project.content }}</p>
+              <!-- <a target="_blank" href="https://github.com/SonalSingh93/SearchEngine">
+                <img src="../assets/images/github.png" style="width: 40px; height: 40px;">
+              </a> -->
+            </div>
+          </div>
+        </a>
+        </div>
+  </mat-grid-tile>
+</mat-grid-list>
+</div>
