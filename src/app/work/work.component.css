@@ -1,0 +1,44 @@
+.WorkContainer{
+  /* padding-top: 100px; */
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  display: flex;
+}
+
+.leftLogoHolder{
+  padding-top: 6%;
+  background-color: white;
+  float: left;
+  width: 30%;
+  height: 100%;
+
+}
+
+.WorkExHolder{
+  background-color: white;
+  float: right;
+  width: 70%;
+}
+
+.spacer{
+  margin-top: 100px;
+}
+.WorkHeaderDivider{
+  background-color: bisque;
+  height: 80px;;
+}
+
+.WorkExFont{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkgray;
+}
+
+.WorkLocation{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: steelblue;
+}
+
+.WorkExYear{
+  color: cornflowerblue;
+}
