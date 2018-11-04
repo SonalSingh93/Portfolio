@@ -1,0 +1,36 @@
+.homeContainer{
+  padding-top: 68px;
+  /* background-color: snow; */
+
+  /* background:url("/assets/images/SONAL_SINGH.png") no-repeat right top; */
+}
+
+/* .profileImage{
+  height: 100%;
+  width: 100%;
+}
+
+.rightImageContainer{
+  width: 40%;
+  height: 100%;
+  float: right;
+  align-self: right;
+} */
+
+.bg{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/SONAL_SINGH.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+.IntroFont{
+  margin-left: 60%;
+  margin-top: 20%;
+  font-size: 60pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10%;
+}

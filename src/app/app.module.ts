@@ -21,6 +21,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
+import { HomeWorkspaceComponent } from './home-workspace/home-workspace.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SkillsComponent } from './skills/skills.component';
     ContactComponent,
     HomeComponent,
     ProjectsComponent,
-    SkillsComponent
+    SkillsComponent,
+    HomeWorkspaceComponent
   ],
   imports: [
     BrowserModule,

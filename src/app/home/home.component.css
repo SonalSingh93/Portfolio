@@ -3,7 +3,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: url("/assets/images/Website-Design-Background.jpg");
+  background: url("/assets/images/image.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,4 +21,9 @@ mat-card{
   text-align: center;
   font-size: 3cm;
   margin-top: 10px;
+}
+
+.layout{
+  background-image: url("/assets/images/000.png");
+  background-origin: border-box;
 }
